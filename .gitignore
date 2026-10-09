@@ -1,0 +1,27 @@
+build
+hs_err_pid*
+!.idea
+.idea/*
+!/.idea/icon.svg
+out
+*.ipr
+*.iws
+*.iml
+.gradle
+.project
+.classpath
+chromedriver.log
+.settings
+classes
+/.run/selenide-ru.run.xml
+/.run/selenide-web.run.xml
+
+# Ignore AI stuff
+/.mcp.json
+/.claude/settings*.json
+/.claude/worktrees/
+/.superpowers/
+
+# Ignore all binary files
+modules/*/bin
+statics/bin
